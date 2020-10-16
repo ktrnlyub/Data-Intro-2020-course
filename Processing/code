@@ -1,1 +1,21 @@
-https://hello.processing.org/display/#@-MJDmEUp9JpmNBhGV9Kl 
+void setup() {
+  size(500, 400);
+  background(10, 80, 100);
+}
+
+void draw() {
+  if (mousePressed) {
+    background(10, 80, 100);
+  } 
+
+  stroke(255, 255, 255);
+  fill(8,232,218);
+  ellipse(300, mouseY, 500, 400);
+
+  fill(160, 210, 230);
+  rect(245, mouseY, 200, 240);
+
+  fill(255, 255, 255);
+  ellipse(mouseX, mouseY, 70, 70);
+}
+
